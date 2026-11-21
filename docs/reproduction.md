@@ -1,6 +1,6 @@
 # Reproducing the reported results
 
-**When Does Document Replay Help Evidence-State Question Answering?** · Wenzhang Du · v1.0.0
+**When Does Document Replay Help Evidence-State Question Answering?** · Wenzhang Du · v1.0.1
 
 ```sh
 python -m pip install -r requirements.txt
@@ -21,3 +21,9 @@ Run the commands at the root of the extracted archive with Python 3.12. CPU veri
 The package includes frozen construction and scoring plans, readout choices, parent-level summaries, training traces where available, and original model and adapter identities. It supports CPU recovery from archived choices. A new adapter-training run requires the upstream model and a training environment. The original synthetic study is supplied at summary level and the original WikiText study at world/article level.
 
 The evaluation uses a single 1.7B backbone, synthetic inventory worlds and multiple-choice readouts. The mixed continuation matches updates and supervised answers while reading different token counts. For a single worked case, run `python -B example.py`. [Original manuscript](../paper/manuscript.pdf) · [English report](report.en.md) · [中文报告](report.zh.md) · [Third-party terms](../THIRD_PARTY_NOTICES.md)
+
+## Method implementation
+
+The [mixed-context scheduler](../code/mixed_schedule.py) and [adapter and optimizer](../code/adapter_optimizer.py) expose the original branch-balancing rules and parameter updates. The CPU check reads every released mixed schedule and verifies step identities, prompt-context counts and all saved mixed and fresh-world step losses. The optional optimizer module uses PyTorch. The scientific CPU checks use NumPy and the standard library.
+
+Run `python -B check_methods.py`. [Method guide](methods.md)

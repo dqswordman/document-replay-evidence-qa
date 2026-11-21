@@ -2,7 +2,7 @@
 
 When Does Document Replay Help Evidence-State Question Answering?
 
-Wenzhang Du · Open Research Reports · v1.0.0 · 2026-11-21
+Wenzhang Du · Open Research Reports · v1.0.1 · 2026-11-21
 
 Adapters replay the same questions with or without supporting documents. Switching the unrelated attachment at test time reverses which specialist leads.
 
@@ -34,7 +34,7 @@ Paired joint-accuracy differences, in percentage points. Positive B−A favors d
 | B − A | 16 | +17.16 | −6.89 |
 | MIX120 − stronger specialist | 32 | +5.58 | +9.23 |
 
-[Source table](https://github.com/dqswordman/document-replay-evidence-qa/blob/v1.0.0/reference/paper_comparisons.csv)
+[Source table](https://github.com/dqswordman/document-replay-evidence-qa/blob/v1.0.1/reference/paper_comparisons.csv)
 
 ## Keep the donor facts and rewrite their presentation
 
@@ -46,11 +46,14 @@ The experiments use one Qwen3-1.7B backbone, synthetic worlds and multiple-choic
 
 The public package stores individual choices, world-level scores, frozen question plans and source attribution. CPU replay checks 435,456 readouts in the three follow-up studies, verifies 472 paired effects and writes 17 comparisons. Earlier synthetic analyses and the original WikiText comparison are identified separately in the result map.
 
+The released context schedule verifies 1,440 mixed slots per world across 32 worlds. Recombining the document and question losses also recovers all 7,680 logged training-step objectives in the mixed and new-world studies. The adapter and Adam routines are included.
+
 ```sh
 python -B verify_manifest.py
 python -B reproduce.py --out replay
+python -B check_methods.py
 ```
 
 ## Citation and materials
 
-[Original manuscript · PDF](https://dqswordman.github.io/assets/reports/document-replay-evidence-qa/manuscript.pdf) · [Frozen release and checksums](https://github.com/dqswordman/document-replay-evidence-qa/releases/tag/v1.0.0) · [Result map and reproduction scope](https://github.com/dqswordman/document-replay-evidence-qa/blob/v1.0.0/docs/reproduction.md) · [Interactive evidence explorer](https://huggingface.co/spaces/DQSWORDMAN/document-replay-evidence-qa)
+[Original manuscript · PDF](https://dqswordman.github.io/assets/reports/document-replay-evidence-qa/manuscript.pdf) · [Frozen release and checksums](https://github.com/dqswordman/document-replay-evidence-qa/releases/tag/v1.0.1) · [Result map and reproduction scope](https://github.com/dqswordman/document-replay-evidence-qa/blob/v1.0.1/docs/reproduction.md) · [Interactive evidence explorer](https://huggingface.co/spaces/DQSWORDMAN/document-replay-evidence-qa) · [Method implementation and worked checks](https://github.com/dqswordman/document-replay-evidence-qa/blob/v1.0.1/docs/methods.md)

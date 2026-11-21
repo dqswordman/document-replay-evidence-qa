@@ -2,7 +2,7 @@
 
 When Does Document Replay Help Evidence-State Question Answering?
 
-Wenzhang Du · 开放研究报告 · v1.0.0 · 2026-11-21
+Wenzhang Du · 开放研究报告 · v1.0.1 · 2026-11-21
 
 两组适配器复习相同的问题与答案，一组带文档，一组闭卷。测试时更换一份与问题无关的附件，两组的领先顺序随之翻转。
 
@@ -34,7 +34,7 @@ Wenzhang Du · 开放研究报告 · v1.0.0 · 2026-11-21
 | B − A | 16 | +17.16 | −6.89 |
 | MIX120 − stronger specialist | 32 | +5.58 | +9.23 |
 
-[数据来源](https://github.com/dqswordman/document-replay-evidence-qa/blob/v1.0.0/reference/paper_comparisons.csv)
+[数据来源](https://github.com/dqswordman/document-replay-evidence-qa/blob/v1.0.1/reference/paper_comparisons.csv)
 
 ## 保留供体事实，改变它们的写法
 
@@ -46,11 +46,14 @@ Wenzhang Du · 开放研究报告 · v1.0.0 · 2026-11-21
 
 公开包保存逐次作答、逐世界分数、冻结的问题配置及来源署名。CPU 回放在三项后续实验中核验 435,456 条作答，检查 472 项配对效应，导出 17 项比较。早期合成实验和原 WikiText 比较的证据层级在结果映射中单列。
 
+训练调度记录覆盖 32 个世界，每个世界核对 1,440 个混合练习槽位。用文档损失和问答损失重组，还能核验混合续训与新世界研究的全部 7,680 条训练步骤目标。包内提供了适配器和 Adam 实现。
+
 ```sh
 python -B verify_manifest.py
 python -B reproduce.py --out replay
+python -B check_methods.py
 ```
 
 ## 引用与材料
 
-[原版论文 · PDF](https://dqswordman.github.io/assets/reports/document-replay-evidence-qa/manuscript.pdf) · [固定版本与校验值](https://github.com/dqswordman/document-replay-evidence-qa/releases/tag/v1.0.0) · [结果映射与复现范围](https://github.com/dqswordman/document-replay-evidence-qa/blob/v1.0.0/docs/reproduction.md) · [交互式证据浏览](https://huggingface.co/spaces/DQSWORDMAN/document-replay-evidence-qa)
+[原版论文 · PDF](https://dqswordman.github.io/assets/reports/document-replay-evidence-qa/manuscript.pdf) · [固定版本与校验值](https://github.com/dqswordman/document-replay-evidence-qa/releases/tag/v1.0.1) · [结果映射与复现范围](https://github.com/dqswordman/document-replay-evidence-qa/blob/v1.0.1/docs/reproduction.md) · [交互式证据浏览](https://huggingface.co/spaces/DQSWORDMAN/document-replay-evidence-qa) · [方法源码与核验说明](https://github.com/dqswordman/document-replay-evidence-qa/blob/v1.0.1/docs/methods.md)

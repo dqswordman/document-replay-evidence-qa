@@ -5,11 +5,11 @@ type: software
 authors:
 - family-names: Du
   given-names: Wenzhang
-version: 1.0.0
+version: 1.0.1
 date-released: '2026-11-21'
 license: MIT
 repository-code: https://github.com/dqswordman/document-replay-evidence-qa
-url: https://github.com/dqswordman/document-replay-evidence-qa/tree/v1.0.0
+url: https://github.com/dqswordman/document-replay-evidence-qa/tree/v1.0.1
 preferred-citation:
   type: report
   title: When Does Document Replay Help Evidence-State Question Answering?
@@ -19,4 +19,4 @@ preferred-citation:
   year: 2026
   month: 11
   url: https://dqswordman.github.io/assets/reports/document-replay-evidence-qa/manuscript.pdf
-  version: 1.0.0
+  version: 1.0.1

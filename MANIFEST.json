@@ -1,5 +1,5 @@
 {
-  "distribution": "GitHub v1.0.0",
+  "distribution": "GitHub v1.0.1",
   "title": "When Does Document Replay Help Evidence-State Question Answering?",
   "author": "Wenzhang Du",
   "files": [
@@ -11,7 +11,7 @@
     {
       "path": ".github/workflows/publish-hugging-face.yml",
       "size_bytes": 1543,
-      "sha256": "48dc1dab08b78f046fada95bd55c3a2da8a792dd6352e3ea4aff4607a38f7228"
+      "sha256": "3ef1d63e6acec7452bd3cd27e0bf756cd15414458841abaef817b0d692112c56"
     },
     {
       "path": ".gitignore",
@@ -34,14 +34,24 @@
       "sha256": "cf20e1b4827b09f23686c14957951ce9a8e17730a1cade7b020a145d12a0e9a4"
     },
     {
+      "path": "check_methods.py",
+      "size_bytes": 1892,
+      "sha256": "c7d0326f21b8e8da9691f106bc9cec7f43f31de623fa65cf2877a88b96f4b36c"
+    },
+    {
       "path": "citation.bib",
       "size_bytes": 313,
-      "sha256": "bd1455b7d4c9b57a47cf89551ff50ab684c921ffcac6adaea4028732be1dd40b"
+      "sha256": "f1e66e9088bd0397efc8791917ecc4a9c2970c747371ca63cad77a3f11edb293"
     },
     {
       "path": "CITATION.cff",
       "size_bytes": 761,
-      "sha256": "e98cdd2c1dcb6a610dfe5b7f4770f6c0ea0fa7c67bdb0620db294cf09c756a1c"
+      "sha256": "12acda86e5a28ab4c968ef5170528a733d6d3b620e355d8ec2d2b06f2fa777a0"
+    },
+    {
+      "path": "code/adapter_optimizer.py",
+      "size_bytes": 1921,
+      "sha256": "96f9e25e417d913e207cfecd74b1cc309cb6460520fab24926fc3c978d456db0"
     },
     {
       "path": "code/audit_readouts.py",
@@ -62,6 +72,11 @@
       "path": "code/evidence_targets.py",
       "size_bytes": 295,
       "sha256": "6b71c8d5f3c9c1e26c744255dcebfabaecb7c8ff7861ded5aee5627856761670"
+    },
+    {
+      "path": "code/mixed_schedule.py",
+      "size_bytes": 1755,
+      "sha256": "c1a19f13a534cf6665db1f2f57b462d8f6a0409271a98cca0039ba03b3001a2f"
     },
     {
       "path": "code/paper_tables.py",
@@ -315,23 +330,28 @@
     },
     {
       "path": "docs/companion.json",
-      "size_bytes": 11141,
-      "sha256": "5e96323390b7ac2e1d6735cd9eae830460a3eae8b97db9b8bd5bc5c4cbdb9b69"
+      "size_bytes": 12129,
+      "sha256": "e746aed65fce791d973fb15055bbe3cf699d7fdaf7277b0a3a8886a019fa2bc2"
+    },
+    {
+      "path": "docs/methods.md",
+      "size_bytes": 688,
+      "sha256": "639e815d1c3a0e021adb144aeb25b6a5395e661ffa4d7b20bb71b21dcbdc1344"
     },
     {
       "path": "docs/report.en.md",
-      "size_bytes": 4289,
-      "sha256": "7a60d99a8ceb1cac6fa86c8cdfc3caaf9cc30bbe9327a63d81e18487f4b499e9"
+      "size_bytes": 4715,
+      "sha256": "aeb1cfd35c4909a6d2ea1185b028b86b6d72e256c2be49256ff1aeb2495dd307"
     },
     {
       "path": "docs/report.zh.md",
-      "size_bytes": 3871,
-      "sha256": "06ec9583750bf27b5228702a02b0e6bfc522aeec9da3de933774ae13b0950731"
+      "size_bytes": 4272,
+      "sha256": "c36be7580cc49424fe7131a91ac281a319353256c04f975e11209f38f48f3ede"
     },
     {
       "path": "docs/reproduction.md",
-      "size_bytes": 2361,
-      "sha256": "40d8ef0078766809919070b14e166ced716afec98d95bc147312fc21f0180681"
+      "size_bytes": 2888,
+      "sha256": "b008c753a39c06e71683f0bed9a8946f70987bf0ab961f801ad7b8f82b1f4aea"
     },
     {
       "path": "environment.json",
@@ -380,8 +400,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 3026,
-      "sha256": "be063010fddd5d84f13ea9f662107260c0f74259bae1456d52fa7728476f2f3f"
+      "size_bytes": 3523,
+      "sha256": "62710d711eb4511a8e0de1321e161de43bfb6900967a42ce312636046b0cb8a9"
     },
     {
       "path": "reference/comparison_checks.json",
@@ -511,7 +531,7 @@
     {
       "path": "scripts/publish_space.py",
       "size_bytes": 5654,
-      "sha256": "fdb868a310a2c72e1351bbba25eb385550884df89c7090dff8656c6c6e594c82"
+      "sha256": "3b494378081856844a73b4bd74efacc0351b0127f2d5f50a6db57e3d94f901cd"
     },
     {
       "path": "space/app.js",
@@ -526,12 +546,12 @@
     {
       "path": "space/index.html",
       "size_bytes": 11216,
-      "sha256": "db7fa7bce1041500653d9d8a0a995a060dcdb4b26c6b64de041fbaf35bbb7124"
+      "sha256": "a7017c5abaf96ce59ef7e31b8391acbef7bd40c951dcdf0ff3f1391300d3fb5d"
     },
     {
       "path": "space/README.md",
-      "size_bytes": 1676,
-      "sha256": "d715feffd15acee5bab951b90148eb54a367fcb3b91a090208822cb39fd5ab2e"
+      "size_bytes": 1788,
+      "sha256": "8b6d5cd79ab70470967a011fc51dd3a4250981b16184a16f9f0fdb9765781f72"
     },
     {
       "path": "space/style.css",
