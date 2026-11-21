@@ -1,0 +1,14 @@
+{
+  "python": "3.12.9",
+  "dependencies": {
+    "numpy": "2.2.6",
+    "scipy": "1.16.2",
+    "matplotlib": "3.10.7",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.14.1",
+    "tokenizers": "0.22.2",
+    "pyarrow": "21.0.0",
+    "safetensors": "0.8.0"
+  },
+  "model_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e"
+}

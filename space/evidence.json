@@ -1,0 +1,423 @@
+[
+  {
+    "name": "Original worlds · B − A",
+    "items": [
+      {
+        "name": "Synthetic attachment",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "+19.25 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "+13.38 to +25.20 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "32"
+          },
+          {
+            "label": "Comparison",
+            "value": "Original worlds · B − A"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "WikiText attachment",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "−7.92 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "−12.53 to −3.55 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "32"
+          },
+          {
+            "label": "Comparison",
+            "value": "Original worlds · B − A"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "Question alone",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "−20.66 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "−24.49 to −16.93 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "32"
+          },
+          {
+            "label": "Comparison",
+            "value": "Original worlds · B − A"
+          }
+        ],
+        "bars": []
+      }
+    ]
+  },
+  {
+    "name": "Fresh worlds · B − A",
+    "items": [
+      {
+        "name": "Synthetic attachment",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "+17.16 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "+10.26 to +24.13 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "16"
+          },
+          {
+            "label": "Comparison",
+            "value": "Fresh worlds · B − A"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "WikiText attachment",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "−6.89 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "−12.55 to −0.96 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "16"
+          },
+          {
+            "label": "Comparison",
+            "value": "Fresh worlds · B − A"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "Question alone",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "−23.39 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "−29.66 to −17.36 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "16"
+          },
+          {
+            "label": "Comparison",
+            "value": "Fresh worlds · B − A"
+          }
+        ],
+        "bars": []
+      }
+    ]
+  },
+  {
+    "name": "Mixed practice − stronger specialist",
+    "items": [
+      {
+        "name": "Synthetic attachment",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "+5.58 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "+1.27 to +9.88 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "32"
+          },
+          {
+            "label": "Comparison",
+            "value": "Mixed practice − stronger specialist"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "WikiText attachment",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "+9.23 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "+6.07 to +12.45 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "32"
+          },
+          {
+            "label": "Comparison",
+            "value": "Mixed practice − stronger specialist"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "Question alone",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "+0.43 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "−1.84 to +2.69 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "32"
+          },
+          {
+            "label": "Comparison",
+            "value": "Mixed practice − stronger specialist"
+          }
+        ],
+        "bars": []
+      }
+    ]
+  },
+  {
+    "name": "Matched donor facts · B − A",
+    "items": [
+      {
+        "name": "Records · explicit verdict",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "+20.96 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "+16.03 to +25.90 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "32"
+          },
+          {
+            "label": "Comparison",
+            "value": "Matched donor facts · B − A"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "Prose · explicit verdict",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "+17.75 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "+11.90 to +23.50 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "32"
+          },
+          {
+            "label": "Comparison",
+            "value": "Matched donor facts · B − A"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "Records · neutral cue",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "+19.38 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "+14.35 to +24.13 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "32"
+          },
+          {
+            "label": "Comparison",
+            "value": "Matched donor facts · B − A"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "Prose · neutral cue",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "+18.26 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "+12.61 to +23.78 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "32"
+          },
+          {
+            "label": "Comparison",
+            "value": "Matched donor facts · B − A"
+          }
+        ],
+        "bars": []
+      }
+    ]
+  },
+  {
+    "name": "Change in the B − A gap",
+    "items": [
+      {
+        "name": "Prose minus records · explicit verdict",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "−3.20 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "−4.82 to −1.56 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "32"
+          },
+          {
+            "label": "Comparison",
+            "value": "Change in the B − A gap"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "WikiText minus synthetic",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "−24.06 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "−31.32 to −16.91 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "16"
+          },
+          {
+            "label": "Comparison",
+            "value": "Change in the B − A gap"
+          }
+        ],
+        "bars": []
+      }
+    ]
+  },
+  {
+    "name": "Form change by specialist",
+    "items": [
+      {
+        "name": "A · closed-book replay",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "+2.42 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "+0.85 to +3.89 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "32"
+          },
+          {
+            "label": "Comparison",
+            "value": "Form change by specialist"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "B · document replay",
+        "description": "The unit for each interval is a paired world. A denotes closed-book replay and B denotes document replay.",
+        "rows": [
+          {
+            "label": "Joint-accuracy difference",
+            "value": "−0.79 pp"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "−2.17 to +0.63 pp"
+          },
+          {
+            "label": "Paired worlds",
+            "value": "32"
+          },
+          {
+            "label": "Comparison",
+            "value": "Form change by specialist"
+          }
+        ],
+        "bars": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "before_user": "<|im_start|>system\nAnswer from learned information. Verification records are trusted; unresolved does not mean false. For a source-report question, return the value the source reported. For a verification-status question, use the trusted verification record. For a value question that does not ask what a source reported, return a specific value only when the trusted verification records establish that value; otherwise choose the option saying that available information does not establish a specific value. A reported value alone is not an established value. Ruling out one reported value does not establish a replacement value.<|im_end|>\n<|im_start|>user\n",
+  "after_user": "<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+  "system_token_count": 106
+}

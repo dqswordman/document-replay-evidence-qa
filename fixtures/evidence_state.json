@@ -1,0 +1,66 @@
+{
+  "parent": "r05_confirm_0000",
+  "atom_id": "r05_confirm_0000_a01",
+  "target_by_version": {
+    "a": {
+      "C": "Pihene",
+      "T": "R",
+      "W": "Available information does not establish a specific value"
+    },
+    "b": {
+      "C": "Pihene",
+      "T": "E",
+      "W": "Pihene"
+    }
+  },
+  "candidate_sizes": {
+    "C": 4,
+    "T": 3,
+    "W": 5
+  },
+  "matched_token_segments": [
+    {
+      "input_tokens": 549,
+      "question_index": 489,
+      "suffix_sha256": "19f57d598eabe17dea2c404b2bd900cc66ba1983c20b6c73e3c3141ebd33b58b",
+      "condition": "records_explicit"
+    },
+    {
+      "input_tokens": 549,
+      "question_index": 489,
+      "suffix_sha256": "19f57d598eabe17dea2c404b2bd900cc66ba1983c20b6c73e3c3141ebd33b58b",
+      "condition": "records_neutral"
+    },
+    {
+      "input_tokens": 549,
+      "question_index": 489,
+      "suffix_sha256": "19f57d598eabe17dea2c404b2bd900cc66ba1983c20b6c73e3c3141ebd33b58b",
+      "condition": "prose_explicit"
+    },
+    {
+      "input_tokens": 549,
+      "question_index": 489,
+      "suffix_sha256": "19f57d598eabe17dea2c404b2bd900cc66ba1983c20b6c73e3c3141ebd33b58b",
+      "condition": "prose_neutral"
+    }
+  ],
+  "little_endian_hash_fixture": {
+    "ids": [
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "sha256": "c488c4280c31c2482dca5a20fb0c4bcd415c7f814ae3a786383656d749933a22"
+  },
+  "scoring_fixture": {
+    "C": 1,
+    "T": 1,
+    "W": 0,
+    "J": 0
+  },
+  "fixture_row_counts": {
+    "T": 168
+  }
+}

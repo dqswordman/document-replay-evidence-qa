@@ -1,0 +1,23 @@
+{
+  "world_id": "r05_confirm_0000",
+  "atom_id": "r05_confirm_0000_a01",
+  "source_id": "Panomu",
+  "subject": "Zubiru",
+  "relation": "storage bay",
+  "object": "Pihene",
+  "status_a": "R",
+  "status_b": "E",
+  "reported_proposition": "Zubiru's storage bay is Pihene",
+  "candidates": [
+    "Cikufi",
+    "Vesilu",
+    "Vaziru",
+    "Pihene"
+  ],
+  "evidence_id": "Zakage",
+  "record_a": "[IR source=Panomu; proposition=Zubiru's storage bay is Pihene; status=ruled out] Panomu named Pihene when describing Zubiru's storage bay. That specific assignment is contradicted by the independent record.",
+  "record_b": "[IR source=Panomu; proposition=Zubiru's storage bay is Pihene; status=established] Panomu named Pihene when describing Zubiru's storage bay. That specific assignment is supported by the independent record.",
+  "question_C": "For Zubiru's storage bay, which value appears in Panomu's statement?\nA. Vesilu\nB. Cikufi\nC. Pihene\nD. Vaziru\nAnswer with the option label only.",
+  "question_T": "For the proposition that Zubiru's storage bay is Pihene, what conclusion is licensed by the verification records?\nA. unresolved\nB. ruled out\nC. established\nAnswer with the option label only.",
+  "question_W": "For Zubiru, what is the value of the storage bay?\nA. Vesilu\nB. Vaziru\nC. Available information does not establish a specific value\nD. Cikufi\nE. Pihene\nAnswer with the option label only."
+}

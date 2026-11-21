@@ -1,0 +1,108 @@
+{
+  "source_mix_endpoint_manifest_sha256": "191b9db66b212b7ec8d8f4dd356facb14fe91020d1e984e59301eee57a0dd449",
+  "source_natural_freeze": "549ad4a5d2598ee3512c52fdd6c07bddc8426c12e301d6d21c2138d1b7af8a7a",
+  "shared_selection_seed": 2026112011,
+  "order": "DU_SCOPEWRITE_PAPER_V8_REVIEW_STRENGTHENING",
+  "dataset": "mixed",
+  "model": {
+    "id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "snapshot_path": "model/qwen3-1.7b",
+    "downloaded": false,
+    "files": [
+      {
+        "name": "config.json",
+        "bytes": 726,
+        "sha256": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+        "verified_sha256": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+        "mtime_ns": 1794116024819259900
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 239,
+        "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+        "verified_sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+        "mtime_ns": 1794116025564588600
+      },
+      {
+        "name": "LICENSE",
+        "bytes": 11343,
+        "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+        "verified_sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+        "mtime_ns": 1794116025602128900
+      },
+      {
+        "name": "merges.txt",
+        "bytes": 1671853,
+        "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+        "verified_sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+        "mtime_ns": 1794116026684314800
+      },
+      {
+        "name": "model-00001-of-00002.safetensors",
+        "bytes": 3441185608,
+        "sha256": null,
+        "verified_sha256": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "mtime_ns": 1794116259650617400
+      },
+      {
+        "name": "model-00002-of-00002.safetensors",
+        "bytes": 622329984,
+        "sha256": null,
+        "verified_sha256": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+        "mtime_ns": 1794116156021224500
+      },
+      {
+        "name": "model.safetensors.index.json",
+        "bytes": 25605,
+        "sha256": "0d660e94b165eb912669a5249dff44b83188c4777a07ddb9611fb78d91b0578d",
+        "verified_sha256": "0d660e94b165eb912669a5249dff44b83188c4777a07ddb9611fb78d91b0578d",
+        "mtime_ns": 1794116026609515600
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 11422654,
+        "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "verified_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "mtime_ns": 1794116191327469500
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 9732,
+        "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "verified_sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "mtime_ns": 1794116027623932800
+      },
+      {
+        "name": "vocab.json",
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "verified_sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "mtime_ns": 1794116028965136400
+      }
+    ]
+  },
+  "seeds": {
+    "execution": 2026112009,
+    "analysis": 2026112017,
+    "mixed": 2026112011,
+    "new_world": 2026112005,
+    "new_articles": 2026112007
+  },
+  "files_sha256": {
+    "cell_plan.csv": "7aa32f207769c91644a90d42f410133830e8639630befd3d2719d2fa0c2761e6",
+    "document_packs.jsonl": "1114cb66cb7d6754834cffa28cdd6a2c7a4e188159027331f123e56bbafacfbc",
+    "legacy_prompt_rendering.json": "575024a7eaa02ccda474b354650372e7b73aebb89283aaf55c5d1a0f90bfe3b4",
+    "materials.jsonl": "0254fc99af307f171ced6621bccd8e1c8c3da164634dcbdf1cbbd4ecfac64c4b",
+    "prompt_groups.jsonl": "58365c200a022cd9ae787d198f9be0074a6ec158a7ba7434e4495388d245fe1e",
+    "prompt_rendering.json": "de2cc4c15a2a03610390bdc4f0b6ae04190122239f034ec6ba350cf6fed8f5e8",
+    "questions.jsonl": "f56c818f16a4f87ea6ae5f51976d9e1a1c7439d9cf2b5341b392ddf14c73d600",
+    "training_contexts.jsonl": "816ff1e084ab168baa3ed710fbeacae03546b5033faf1926e79e746ee4951f99",
+    "training_specs.jsonl": "cdd75f531b1d75f242bb7ecb6219c77cf7fa30d09a02efdfdbe2e57869707325",
+    "weights.csv": "57787985edd70613963eb31f37653095ef9e7cd9b79e12df95fe3497f3e7e387",
+    "worlds.jsonl": "74dfd232cc104ff3764f0a2d6a0bbe08cbaaad2b1f7cfe986c23bf7930ff2b0c"
+  },
+  "freeze_id": "58800765d460d66d702d4add3634460e83e5204169125eb3fdbeeb76c8d86994",
+  "frozen_at_utc": "2026-11-20T08:24:12.061498+00:00",
+  "path_projection_only": true
+}

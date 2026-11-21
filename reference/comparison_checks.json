@@ -1,0 +1,52 @@
+{
+  "verified_paired_rows": 472,
+  "complete_worlds": {
+    "bridge": 32,
+    "mixed": 32,
+    "transfer": 16
+  },
+  "inputs_and_coverage": {
+    "bridge": {
+      "P": {
+        "planned_cells": 64,
+        "complete_cells": 64,
+        "planned": 5376,
+        "valid": 5376,
+        "missing": 0,
+        "invalid": 0
+      },
+      "T": {
+        "planned_cells": 2048,
+        "complete_cells": 2048,
+        "planned": 172032,
+        "valid": 172032,
+        "missing": 0,
+        "invalid": 0
+      }
+    },
+    "mixed": {
+      "T": {
+        "planned_cells": 2048,
+        "complete_cells": 2048,
+        "planned": 172032,
+        "valid": 172032,
+        "missing": 0,
+        "invalid": 0
+      }
+    },
+    "transfer": {
+      "T": {
+        "planned_cells": 1024,
+        "complete_cells": 1024,
+        "planned": 86016,
+        "valid": 86016,
+        "missing": 0,
+        "invalid": 0
+      }
+    }
+  },
+  "valid_query_count": 435456,
+  "bootstrap_draws": 10000,
+  "strengthening_seed": 2026112017,
+  "original_wikitext_seed": 2026111803
+}
