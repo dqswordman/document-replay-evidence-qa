@@ -2,6 +2,8 @@
 
 **When Does Document Replay Help Evidence-State Question Answering?** · Wenzhang Du · v1.0.1
 
+The replay starts from saved choices or world-level summaries, according to the study. It reconstructs joint accuracy for each attachment condition and compares the training branches within world. The commands below reproduce the released comparisons on CPU.
+
 ```sh
 python -m pip install -r requirements.txt
 python -B verify_manifest.py
@@ -20,7 +22,7 @@ Run the commands at the root of the extracted archive with Python 3.12. CPU veri
 
 The package includes frozen construction and scoring plans, readout choices, parent-level summaries, training traces where available, and original model and adapter identities. It supports CPU recovery from archived choices. A new adapter-training run requires the upstream model and a training environment. The original synthetic study is supplied at summary level and the original WikiText study at world/article level.
 
-The evaluation uses a single 1.7B backbone, synthetic inventory worlds and multiple-choice readouts. The mixed continuation matches updates and supervised answers while reading different token counts. For a single worked case, run `python -B example.py`. [Original manuscript](../paper/manuscript.pdf) · [English report](report.en.md) · [中文报告](report.zh.md) · [Third-party terms](../THIRD_PARTY_NOTICES.md)
+The tasks use synthetic inventories and one 1.7B model. Continued mixed practice matches the specialists on updates and supervised answers. Training token counts differ. For a single worked case, run `python -B example.py`. [Original manuscript](../paper/manuscript.pdf) · [English report](report.en.md) · [中文报告](report.zh.md) · [Third-party terms](../THIRD_PARTY_NOTICES.md)
 
 ## Method implementation
 

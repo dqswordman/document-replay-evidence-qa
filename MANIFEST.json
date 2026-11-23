@@ -1,5 +1,5 @@
 {
-  "distribution": "GitHub v1.0.1",
+  "distribution": "GitHub main · research artifact v1.0.1, revised web companion",
   "title": "When Does Document Replay Help Evidence-State Question Answering?",
   "author": "Wenzhang Du",
   "files": [
@@ -330,28 +330,28 @@
     },
     {
       "path": "docs/companion.json",
-      "size_bytes": 12129,
-      "sha256": "e746aed65fce791d973fb15055bbe3cf699d7fdaf7277b0a3a8886a019fa2bc2"
+      "size_bytes": 13504,
+      "sha256": "5b46b37477d4ff051db2ca8fa1a887e217808d28b3cf50cd74db381847b5b84d"
     },
     {
       "path": "docs/methods.md",
-      "size_bytes": 688,
-      "sha256": "639e815d1c3a0e021adb144aeb25b6a5395e661ffa4d7b20bb71b21dcbdc1344"
+      "size_bytes": 648,
+      "sha256": "559d3dd4bed7e7c2ec022a5ca3a0d9c977fc047ddb7293360c62d9c24d7fc911"
     },
     {
       "path": "docs/report.en.md",
-      "size_bytes": 4715,
-      "sha256": "aeb1cfd35c4909a6d2ea1185b028b86b6d72e256c2be49256ff1aeb2495dd307"
+      "size_bytes": 5364,
+      "sha256": "6aa7df9f89339164f4c8bb84a04fc28d5d9da28fd6c09654de5558cb8fce343f"
     },
     {
       "path": "docs/report.zh.md",
-      "size_bytes": 4272,
-      "sha256": "c36be7580cc49424fe7131a91ac281a319353256c04f975e11209f38f48f3ede"
+      "size_bytes": 4952,
+      "sha256": "9cfd2a719862747c56ea4687b1f912eba73ef9faac778448bd8be162b8746eab"
     },
     {
       "path": "docs/reproduction.md",
-      "size_bytes": 2888,
-      "sha256": "b008c753a39c06e71683f0bed9a8946f70987bf0ab961f801ad7b8f82b1f4aea"
+      "size_bytes": 3117,
+      "sha256": "1e4069bfa88a6be708a912880748d45b052ba988c3f7c0977370c4507c884a1e"
     },
     {
       "path": "environment.json",
@@ -400,8 +400,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 3523,
-      "sha256": "62710d711eb4511a8e0de1321e161de43bfb6900967a42ce312636046b0cb8a9"
+      "size_bytes": 3541,
+      "sha256": "1b412945c30658076c0a72d431521e216cee6cfaf662b44c4a4b2e3457125734"
     },
     {
       "path": "reference/comparison_checks.json",
@@ -545,13 +545,13 @@
     },
     {
       "path": "space/index.html",
-      "size_bytes": 11216,
-      "sha256": "a7017c5abaf96ce59ef7e31b8391acbef7bd40c951dcdf0ff3f1391300d3fb5d"
+      "size_bytes": 11262,
+      "sha256": "92770f87783f2b164d637848873e651765b98152f3b66ba1e7c624d0c468d368"
     },
     {
       "path": "space/README.md",
-      "size_bytes": 1788,
-      "sha256": "8b6d5cd79ab70470967a011fc51dd3a4250981b16184a16f9f0fdb9765781f72"
+      "size_bytes": 1847,
+      "sha256": "4862369a877a5896fe80071c8160b99a8419ee580daabe72cb4162d056763a3a"
     },
     {
       "path": "space/style.css",

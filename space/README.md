@@ -1,6 +1,6 @@
 ---
 title: Document replay and evidence state
-short_description: Compare paired replay effects across document types
+short_description: See when a test attachment changes which adapter leads
 emoji: 📑
 colorFrom: indigo
 colorTo: gray
@@ -20,7 +20,7 @@ pinned: false
 
 **Wenzhang Du** · Open Research Reports · v1.0.1
 
-On 32 paired worlds, document replay leads closed-book replay by 19.25 percentage points with synthetic attachments and trails by 7.92 points with WikiText. Sixteen fresh worlds preserve both directions.
+Select an attachment and compare two adapters trained on the same answers. Each plotted difference is paired by inventory world. The explorer also shows newly trained worlds, a continued mixed-practice branch and a comparison that keeps the donor facts fixed.
 
 [Manuscript PDF](https://dqswordman.github.io/assets/reports/document-replay-evidence-qa/manuscript.pdf) · [Technical report](https://dqswordman.github.io/technical-reports/document-replay-evidence-qa/) · [中文技术报告](https://dqswordman.github.io/zh/technical-reports/document-replay-evidence-qa/) · [GitHub](https://github.com/dqswordman/document-replay-evidence-qa) · [Frozen release](https://github.com/dqswordman/document-replay-evidence-qa/releases/tag/v1.0.1)
 
